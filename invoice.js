@@ -1,7 +1,7 @@
 const app = new Vue({
   el: "#app",
   data: {
-    count: 3 * 24 * 60 * 60,
+    count: 5 * 24 * 60 * 60,
     color: "black"
   },
   created() {
