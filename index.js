@@ -22,7 +22,7 @@ const app = new Vue({
         this.message = "情報送信中..."
       }, 5000)
       setTimeout(() => {
-        location.href = "invoic.html"
+        location.href = "invoice.html"
       }, 10000)
     }
   }
