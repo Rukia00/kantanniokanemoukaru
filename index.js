@@ -11,7 +11,7 @@ const app = new Vue({
       this.seen = true
       setTimeout(() => {
         this.message = "写真を送信中..."
-      }, 1000)
+      }, 2000)
       setTimeout(() => {
         this.message = "IPアドレス取得中..."
       }, 3000)
